@@ -1,0 +1,33 @@
+/* start box */
+.d-flex {
+  display: flex;
+}
+/* end box */
+
+/* start margin and padding */
+.p-20 {
+  padding: 20px;
+}
+.m-20 {
+  margin: 20px
+}
+.mt-0{
+  margin-top: 0px;
+}
+/* end margin and padding */
+
+/* start color */
+.bg-white{
+  background-color: white;
+}
+/* end color */
+
+/* start position */
+
+/* end position */
+
+/* start font */
+.txt-c{
+  text-align: center;
+}
+/* end font */
