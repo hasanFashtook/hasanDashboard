@@ -1612,7 +1612,7 @@ img {
   grid-template-columns: minmax(450p,1fr);
   background-color: white;
   padding: 20px;
-  margin: 30px;
+  margin: 15px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
