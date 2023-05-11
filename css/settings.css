@@ -677,6 +677,7 @@ img {
   left: 0;
   content: "";
   border: 2px solid var(--blue-color);
+  border-radius: 5px;
 }
 
 .widgets-control form input::after {
