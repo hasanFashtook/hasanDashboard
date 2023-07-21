@@ -105,20 +105,20 @@
           <div class="Site-Control">
             <h2>Site-Control</h2>
             <p>Control The Website If There Is Maintenance</p>
-            <div class="control">
+            <form action="">
               <div class="tip">
                 <span>Website Control</span>
                 <p>Open/Close Website And Type The Reason</p>
               </div>
-              <div class="toggle">
-                <label>
-                  <input class="toggle-checkbox " type="checkbox" name="" id="123" checked>
-                  <div class="toggle-switch "></div>
+              <div class="control">
+                <input class="toggle-checkbox " type="checkbox" name="" id="12345">
+                <label for="12345">
+                  <div class="circle">
+                  </div>
                 </label>
               </div>
-            </div>
-            <form action="">
               <textarea name="" id="" cols="30" rows="10" placeholder="Type Your Reason"></textarea>
+              <button type="submit">send</button>
             </form>
           </div>
           <!-- end site control -->
@@ -147,7 +147,7 @@
           <div class="security-info">
             <h2>security info</h2>
             <p>Security Information About Your Account</p>
-            <div class="info">
+            <form class="info">
               <!-- password -->
               <div>
                 <div class="password">
@@ -155,7 +155,7 @@
                   <P>Last Change On 25/10/2021</P>
                 </div>
                 <div class="btn">
-                  <button>Change</button>
+                  <button type="submit">Change</button>
                 </div>
               </div>
               <!-- authentication -->
@@ -164,10 +164,11 @@
                   <span>Two-Factor Authentication</span>
                   <P>Enable/Disable The Feature</P>
                 </div>
-                <div class="toggle">
-                  <label>
-                    <input class="toggle-checkbox " type="checkbox" name="" id="123" checked>
-                    <div class="toggle-switch "></div>
+                <div>
+                  <input class="toggle-checkbox " type="checkbox" name="" id="123">
+                  <label for="123">
+                    <div class="circle">
+                    </div>
                   </label>
                 </div>
               </div>
@@ -178,43 +179,44 @@
                   <P>Enable/Disable The Feature</P>
                 </div>
                 <div class="btn">
-                  <button>Device</button>
+                  <button type="submit">Device</button>
                 </div>
               </div>
 
-            </div>
+            <form/>
           </div>
           <!-- end Security Info -->
           <!-- start Social Info -->
           <div class="social-info">
             <h2>Social Info</h2>
             <p>Social Media Information</p>
-            <ul>
-              <li>
-                <div class="icon">
-                  <i class="fa-brands fa-twitter"></i>
-                </div>
-                <input type="tel" name="" id="" placeholder="Twitter Username">
-              </li>
-              <li>
-                <div class="icon">
-                  <i class="fa-brands fa-facebook"></i>
-                </div>
-                <input type="tel" name="" id="" placeholder="Facebook Username">
-              </li>
-              <li>
-                <div class="icon">
-                  <i class="fa-brands fa-youtube"></i>
-                </div>
-                <input type="tel" name="" id="" placeholder="Youtube Username">
-              </li>
-              <li>
-                <div class="icon">
-                  <i class="fa-brands fa-linkedin"></i>
-                </div>
-                <input type="tel" name="" id="" placeholder="Linkedin Username">
-              </li>
-            </ul>
+
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <input type="tel" name="" id="" placeholder="Twitter Username">
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                  </div>
+                  <input type="tel" name="" id="" placeholder="Facebook Username">
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa-brands fa-youtube"></i>
+                  </div>
+                  <input type="tel" name="" id="" placeholder="Youtube Username">
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </div>
+                  <input type="tel" name="" id="" placeholder="Linkedin Username">
+                </li>
+              </ul>
           </div>
           <!-- end Social Info -->
           <!-- start Widgets control -->

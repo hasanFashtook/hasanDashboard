@@ -131,8 +131,7 @@ a {
 
 .side-bar h3 {
   position: relative;
-  margin-bottom: 20px;
-
+  margin-bottom: 50px;
 }
 
 .side-bar h3::after {

@@ -885,7 +885,6 @@ img {
 .grid .box .details a {
   position: absolute;
   height: 30px;
-  width: fit-content;
   color: white;
   background-color: var(--blue-color);
   padding: 5px 10px;
@@ -1029,7 +1028,6 @@ img {
 }
 
 .friends .friend div:last-of-type .control a {
-  width: fit-content;
   color: white;
   border-radius: 10px;
   padding: 5px 10px;
@@ -1279,7 +1277,6 @@ img {
   color: white;
   text-align: center;
   position: relative;
-  width: fit-content;
 }
 
 .plans .plan .price>div h2:last-of-type::before {
