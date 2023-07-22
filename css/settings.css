@@ -12,13 +12,15 @@
   --orange-color: #f59e0b;
   --green-color: #22c55e;
   --red-color: #f44336;
-  --grey-color: #888;
-  --lite-gray-color: #eee;
+  --dark-grey-color:#e9e9ea;
+  --middle-grey-color: #fbfbfc;
+  --light-grey-color: #f2f2f7;
+  --white-color: #fff;
   --double-font-size: 2rem;
   --small-font-size: 13px;
-  --middle-font-size: 14px;
-  --big-font-size: 23px;
-  --fa-style-family-classic: "Font Awesome 6 Free";
+  --middle-font-size: 17px;
+  --big-font-size: 25px;
+  --font-first-color: #808080;
 }
 
 body {
@@ -60,7 +62,7 @@ input.toggle-on-off + label {
   padding: 2px;
   width: 48px;
   height: 26px;
-  background-color: #aaa;
+  background-color: var(--light-grey-color);
   -webkit-border-radius: 12.5px;
   -moz-border-radius: 12.5px;
   -ms-border-radius: 12.5px;
@@ -598,7 +600,7 @@ img {
   padding: 2px;
   width: 48px;
   height: 26px;
-  background-color: #aaa;
+  background-color: var(--light-grey-color);
   -webkit-border-radius: 12.5px;
   -moz-border-radius: 12.5px;
   -ms-border-radius: 12.5px;
@@ -647,8 +649,8 @@ img {
 .social-info form>div {
   display: flex;
   height: 40px;
-  background-color: #f6f6f6;
-  border: 1px solid #aaa;
+  background-color: var(--light-grey-color);
+  border: 3px solid var(--dark-grey-color);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -668,7 +670,7 @@ img {
 }
 
 .social-info form .icon i {
-  color: #aaa;
+  color: var(--light-grey-color);
   font-size: 20px;
   cursor: pointer;
   -webkit-transition: 0.3s;
@@ -681,7 +683,7 @@ img {
 .social-info form>div input {
   border: none;
   background-color: inherit;
-  border-left: 1px solid #aaa;
+  border-left: 1px solid var(--light-grey-color);
   padding-left: 10px;
   width: calc(100% - 40px);
 }
@@ -696,7 +698,7 @@ img {
 }
 
 .social-info form>div input::placeholder {
-  color: #aaa;
+  color: var(--light-grey-color);
 }
 .social-info form button {
   border: none;
