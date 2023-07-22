@@ -27,7 +27,7 @@
 /* start component */
 input.toggle-on-off+label {
   padding: 2px;
-  display: block;
+  display: flex;
   width: 56px;
   height: 30px;
   background-color: var(--tertiary-color);
@@ -380,12 +380,14 @@ a {
   color: yellow;
   font-size: 1.25rem;
 }
-.account .notification{
+
+.account .notification {
   width: 30px;
   height: 30px;
   display: grid;
   place-items: center;
 }
+
 .account .notification i {
   font-size: 20px;
   position: relative;
@@ -489,11 +491,11 @@ img {
   .info .prof .image {
     top: -20px;
     left: 50%;
-    -webkit-transform: translate(-50);
-    -moz-transform: translate(-50);
-    -ms-transform: translate(-50);
-    -o-transform: translate(-50);
-    transform: translate(-50);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
   }
 }
 
@@ -547,7 +549,7 @@ img {
   border: none;
   padding: 4px 10px;
   background-color: var(--blue-color);
-color: white;
+  color: white;
   border-radius: 6px;
   cursor: pointer;
 }
@@ -614,7 +616,7 @@ color: white;
   border: none;
   padding: 4px 10px;
   background-color: var(--blue-color);
-color: white;
+  color: white;
   border-radius: 6px;
   cursor: pointer;
   margin: 0px;
@@ -751,7 +753,7 @@ color: white;
   top: -30px;
   left: 80%;
   background-color: var(--blue-alt-color);
-color: var(--primary-font-color);
+  color: var(--primary-font-color);
   padding: 3px;
   font-size: var(--small-font-size);
   border-radius: 3px;
@@ -784,7 +786,7 @@ color: var(--primary-font-color);
   top: -30px;
   left: 55%;
   background-color: var(--orange-color);
-color: var(--primary-font-color);
+  color: var(--primary-font-color);
   padding: 3px;
   font-size: var(--small-font-size);
   border-radius: 3px;
@@ -817,7 +819,7 @@ color: var(--primary-font-color);
   top: -30px;
   left: 75%;
   background-color: var(--green-color);
-color: var(--primary-font-color);
+  color: var(--primary-font-color);
   padding: 3px;
   font-size: var(--small-font-size);
   border-radius: 3px;
@@ -1058,7 +1060,7 @@ color: var(--primary-font-color);
 }
 
 .Latest-Tasks ul::-webkit-scrollbar {
-  background-color: var(--secondary-color) ;
+  background-color: var(--secondary-color);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -1590,7 +1592,7 @@ color: var(--primary-font-color);
 }
 
 .Social-Media-Stats ul li .icon i {
-color: var(--primary-font-color);
+  color: var(--primary-font-color);
   padding: 15px;
   font-size: 25px;
 }
@@ -1601,7 +1603,7 @@ color: var(--primary-font-color);
 }
 
 .Social-Media-Stats ul li .btn a {
-color: white;
+  color: white;
   padding: 5px 10px;
   margin: auto 10px;
 }
@@ -1787,7 +1789,7 @@ color: white;
 .Projects-table-widget table tbody tr td span {
   padding: 5px 10px;
   border-radius: 6px;
-color: var(--primary-font-color);
+  color: var(--primary-font-color);
 }
 
 .Projects-table-widget table tbody tr td span.completed {
